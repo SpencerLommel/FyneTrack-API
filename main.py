@@ -14,7 +14,7 @@ def login():
     password = request_data['password']
 
     print(username, password)
-    if username == "spencer5949" and password == "Q4mbn112'":
+    if username == "spencer5949" and password == "test":
         # time.sleep(5)
         return jsonify(token="testToken2341"), 200
     else:
